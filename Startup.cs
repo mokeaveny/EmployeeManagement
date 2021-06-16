@@ -9,7 +9,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
+using EmployeeManagement.Models;
 using Microsoft.AspNetCore.ResponseCompression;
+using Microsoft.AspNetCore.Identity;
 
 namespace EmployeeManagement
 {
@@ -25,6 +27,12 @@ namespace EmployeeManagement
         {
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
             services.AddRazorPages().AddRazorRuntimeCompilation();
+
+            services.AddDbContext<IdentityContext>(opts =>
+                opts.UseSqlServer(Configuration[
+                    "ConnectionStrings:IdentityConnection"]));
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<IdentityContext>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

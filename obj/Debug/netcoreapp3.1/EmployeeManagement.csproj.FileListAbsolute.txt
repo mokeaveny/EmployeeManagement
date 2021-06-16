@@ -36,8 +36,6 @@ C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.CookiePolicy.dll
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cors.dll
-C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.dll
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -116,8 +114,6 @@ C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
-C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Core.dll
-C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
@@ -367,3 +363,13 @@ C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.RazorTargetAssemblyInfo.cs
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.Views.pdb
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\EmployeeManagement.csproj.CopyComplete
+C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
+C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Admin\_Layout.cshtml.g.cs
+C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Layout.cshtml.g.cs
