@@ -368,8 +368,10 @@ C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Index.cshtml.g.cs
-C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Admin\_Layout.cshtml.g.cs
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\_Layout.cshtml.g.cs
+C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Pages\Employees\List.cshtml.g.cs
+C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Pages\Employees\_Layout.cshtml.g.cs
+C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
