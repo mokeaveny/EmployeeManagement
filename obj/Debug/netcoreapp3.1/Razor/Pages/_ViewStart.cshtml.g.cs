@@ -13,49 +13,49 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "C:\Users\micha\Desktop\Web Development\EmployeeManagement\Pages\_ViewImports.cshtml"
+#line 2 "C:\Users\micha\Desktop\Web Development\EmployeeManagement\Pages\_ViewImports.cshtml"
 using EmployeeManagement.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "C:\Users\micha\Desktop\Web Development\EmployeeManagement\Pages\_ViewImports.cshtml"
+#line 3 "C:\Users\micha\Desktop\Web Development\EmployeeManagement\Pages\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "C:\Users\micha\Desktop\Web Development\EmployeeManagement\Pages\_ViewImports.cshtml"
+#line 4 "C:\Users\micha\Desktop\Web Development\EmployeeManagement\Pages\_ViewImports.cshtml"
 using Microsoft.EntityFrameworkCore;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "C:\Users\micha\Desktop\Web Development\EmployeeManagement\Pages\_ViewImports.cshtml"
+#line 5 "C:\Users\micha\Desktop\Web Development\EmployeeManagement\Pages\_ViewImports.cshtml"
 using System.ComponentModel.DataAnnotations;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "C:\Users\micha\Desktop\Web Development\EmployeeManagement\Pages\_ViewImports.cshtml"
+#line 6 "C:\Users\micha\Desktop\Web Development\EmployeeManagement\Pages\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "C:\Users\micha\Desktop\Web Development\EmployeeManagement\Pages\_ViewImports.cshtml"
+#line 7 "C:\Users\micha\Desktop\Web Development\EmployeeManagement\Pages\_ViewImports.cshtml"
 using EmployeeManagement.Pages;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"77a2804b95fd303a20a56ec194ea6ca59278fafa", @"/Pages/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cb1057cb5d95c92359f56f5465707976f4c718cd", @"/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"42cf960fc8d079d7b64d02b31b1bf2e5c4ea1958", @"/Pages/_ViewImports.cshtml")]
     public class Pages__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

@@ -375,3 +375,4 @@ C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Pages\Employees\_Layout.cshtml.g.cs
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\micha\Desktop\Web Development\EmployeeManagement\obj\Debug\netcoreapp3.1\Razor\Pages\Employees\Create.cshtml.g.cs
