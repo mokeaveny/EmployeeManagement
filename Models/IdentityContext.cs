@@ -8,6 +8,8 @@ namespace EmployeeManagement.Models
     {
         public IdentityContext(DbContextOptions<IdentityContext> options) : base(options) { }
 
+        public DbSet<Department> Departments { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);

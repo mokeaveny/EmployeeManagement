@@ -5511,6 +5511,7 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.1",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.1",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.1",
+      "Microsoft.EntityFrameworkCore.Relational >= 3.1.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.1"
     ]
   },
@@ -5569,6 +5570,10 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.1.1, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[3.1.1, )"
           },
