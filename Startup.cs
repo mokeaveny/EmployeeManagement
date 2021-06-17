@@ -31,7 +31,7 @@ namespace EmployeeManagement
             services.AddDbContext<IdentityContext>(opts =>
                 opts.UseSqlServer(Configuration[
                     "ConnectionStrings:IdentityConnection"]));
-            services.AddIdentity<IdentityUser, IdentityRole>()
+            services.AddIdentity<Employee, IdentityRole>()
                 .AddEntityFrameworkStores<IdentityContext>();
         }
 

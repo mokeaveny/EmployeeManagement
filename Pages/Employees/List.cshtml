@@ -9,7 +9,7 @@
     }
     else
     {
-        foreach (IdentityUser user in Model.Users)
+        foreach (Employee user in Model.Users)
         {
             <tr>
                 <td>@user.Id</td>
@@ -35,14 +35,14 @@
 @functions {
     public class ListModel : EmployeeAdminPageModel
     {
-        public UserManager<IdentityUser> UserManager;
+        public UserManager<Employee> UserManager;
 
-        public ListModel(UserManager<IdentityUser> userManager)
+        public ListModel(UserManager<Employee> userManager)
         {
             UserManager = userManager;
         }
 
-        public IEnumerable<IdentityUser> Users { get; set; }
+        public IEnumerable<Employee> Users { get; set; }
 
         public void OnGet()
         {
