@@ -4,14 +4,16 @@ using EmployeeManagement.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EmployeeManagement.Migrations
 {
     [DbContext(typeof(IdentityContext))]
-    partial class IdentityContextModelSnapshot : ModelSnapshot
+    [Migration("20210617110830_departmentPrimaryKey")]
+    partial class departmentPrimaryKey
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -21,10 +23,13 @@ namespace EmployeeManagement.Migrations
 
             modelBuilder.Entity("EmployeeManagement.Models.Department", b =>
                 {
-                    b.Property<int>("DepartmentID")
+                    b.Property<int>("DepartmentId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("EmployeeId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("HeadOfDepartment")
                         .HasColumnType("nvarchar(max)");
@@ -35,7 +40,9 @@ namespace EmployeeManagement.Migrations
                     b.Property<int>("NumberOfEmployees")
                         .HasColumnType("int");
 
-                    b.HasKey("DepartmentID");
+                    b.HasKey("DepartmentId");
+
+                    b.HasIndex("EmployeeId");
 
                     b.ToTable("Department");
                 });
@@ -51,9 +58,6 @@ namespace EmployeeManagement.Migrations
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("DepartmentID")
-                        .HasColumnType("int");
 
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(256)")
@@ -104,8 +108,6 @@ namespace EmployeeManagement.Migrations
                         .HasMaxLength(256);
 
                     b.HasKey("Id");
-
-                    b.HasIndex("DepartmentID");
 
                     b.HasIndex("NormalizedEmail")
                         .HasName("EmailIndex");
@@ -249,11 +251,11 @@ namespace EmployeeManagement.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("EmployeeManagement.Models.Employee", b =>
+            modelBuilder.Entity("EmployeeManagement.Models.Department", b =>
                 {
-                    b.HasOne("EmployeeManagement.Models.Department", "Department")
-                        .WithMany()
-                        .HasForeignKey("DepartmentID");
+                    b.HasOne("EmployeeManagement.Models.Employee", null)
+                        .WithMany("Department")
+                        .HasForeignKey("EmployeeId");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
